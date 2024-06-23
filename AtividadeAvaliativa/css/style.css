@@ -40,9 +40,6 @@ body {
 }
 
 
-
-
-/* Navbar */
 .navbar {
     background-color: var(--secondary-color);
     padding:  0px 20px;
@@ -85,18 +82,28 @@ main {
     margin-top: 5%;
     margin-left: 64px;
     margin-left: 12.99%;
+    display: flex;
     
 }
 
+.arrow p {
+    line-height: 26px;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    color: #7E8492;
+    width: 291px;
+    height: 130px;
+    
+    
+}
 .promo {
     display: inline-flex;
     padding: 6px 16px;
     align-items: flex-start;
     color:#8635FD;
-    font-family: 'inter';
-    font-size: 14px;
-    font-weight: 500;
-    text-align: center;
     margin-bottom: 20px;
     line-height: 150%;
     padding-top: 10%;
@@ -107,7 +114,10 @@ main {
     display: inline-block;
     padding: 5px 10px;
     border-radius: 20px;
-    font-family: 'Inter';
+    font-family: 'inter';
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
 }
 
 
