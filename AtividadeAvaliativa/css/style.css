@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
- * {
+* {
     margin: 0;
     padding: 0;
- }
+}
 
 :root {
     --primary-color: #8635FD;
@@ -21,6 +21,7 @@ body {
 }
 
 .header {
+    width: 100%;
     height: 25px;
     background-color: var(--primary-color);
     margin-top: 0px;
@@ -28,9 +29,8 @@ body {
     display: flex;
 }
 
-.lettering { 
-    font-size: 12px;
-    padding: 11px 16px;
+.lettering {
+    font-size: 0.75rem;
     font-family: 'inter';
     font-weight: 500;
     color: #ffffff;
@@ -39,13 +39,20 @@ body {
     line-height: 150%;
 }
 
+.logo {
+    width: 7.5rem;
+    height: 3.5rem;
+}
 
-
+.menu {
+    width: 1.5rem;
+    height: 1.5rem;
+}
 
 /* Navbar */
 .navbar {
     background-color: var(--secondary-color);
-    padding:  0px 20px;
+    padding: 0px 20px;
     margin: 0;
     padding-bottom: 0;
 }
@@ -65,36 +72,39 @@ body {
     width: 24px;
     height: 24px;
     gap: 191px;
-    padding-right: 20px;
 }
 
 .navbar .logo img {
     width: 120px;
     height: 56px;
-    margin-right: 10px;
     display: flex;
     align-items: center;
 }
-
 
 main {
     padding: 10px;
 }
 
 .arrow {
-    margin-top: 5%;
-    margin-left: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -2%;
     margin-left: 12.99%;
-    
+
+}
+
+.arrow img {
+    margin-top: -15%;
 }
 
 .promo {
     display: inline-flex;
     padding: 6px 16px;
     align-items: flex-start;
-    color:#8635FD;
+    color: #8635FD;
     font-family: 'inter';
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 500;
     text-align: center;
     margin-bottom: 20px;
@@ -113,27 +123,27 @@ main {
 
 .content h1 {
     font-family: 'Inter';
-    font-size: 36px;
+    font-size: 2.25rem;
     font-style: normal;
     font-weight: 600;
     line-height: 120%;
-    letter-spacing: -0.36px;
+    letter-spacing: -0.0225rem;
+    margin-left: 0.5rem;
 }
 
 .content p {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     color: #7E8492;
     width: 231px;
-    margin-left: 29%;
-    margin-top: -21%;
     margin-bottom: 20px;
     text-align: mixed;
     font-family: 'Inter';
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 1.625rem;
+    margin-left: 0.5rem;
 }
 
 .invitation {
@@ -153,15 +163,15 @@ main {
 
 .invitation p {
     margin-top: 3px;
-    font-size: 14px;
+    font-size: 1rem;
     font-family: 'Inter';
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 1.625rem;
 }
 
-#StartForFree {
+#startForFree {
     padding: 14px 20px;
     background-color: #8635FD;
     border-radius: 100px;
@@ -171,18 +181,18 @@ main {
     color: #ffffff;
     width: 95px;
     height: 6px;
-}   
+}
 
-#StartForFree p {
+#startForFree p {
     margin-top: -3px;
     font-family: 'Inter';
-    font-size: 14px;
+    font-size: 0.875rem;
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
 }
 
-.LogInNow {
+.logInNow {
     flex-direction: row;
     display: flex;
     gap: 1%;
@@ -190,21 +200,110 @@ main {
     margin-bottom: 3rem;
 }
 
-.LogInNow p {
+.logInNow p {
     margin-left: 2%;
     font-family: 'Inter';
-    font-size: 14px;
+    font-size: 0.875rem;
     font-style: normal;
     font-weight: 500;
     line-height: 150%;
+    line-height: 1.625rem;
     color: #7E8492;
 }
 
-.LogInNow a {
+.logInNow a {
     font-family: 'Inter';
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 1.625rem;
     color: #1D1E25;
+}
+
+.sales {
+    width: 18.28906rem;
+    height: 12.99225rem;
+    margin-left: 1.25rem;
+    background: #FFF;
+    box-shadow: 15.99px 31.981px 63.962px 0px rgba(89, 96, 135, 0.12);
+    border-radius: 0.5rem;
+    margin: 1.25rem;
+    padding: 1rem;
+    padding-bottom: 3.15rem;
+}
+
+.sales p {
+    font-family: 'Inter';
+    color: #1D1E25;
+    font-size: 1.19931rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.49913rem;
+    padding-bottom: 0.8rem;
+}
+
+.statistic {
+    display: flex;
+    flex-direction: row;
+    border: #8635FD 3rem solid;  
+    width: 16rem;
+    align-items: center;
+    height: 0.25rem;
+    justify-content: flex-start;
+    border-radius: 0.8rem;
+    box-shadow: 15.99px 31.981px 63.962px 0px rgba(45, 51, 81, 0.12);
+    background-color: #8635FD;
+    gap: 2rem;
+}
+
+
+#statisticTitle {
+    color: #FAFBFA;
+    font-family: 'Inter';
+    font-size: 0.69956rem;
+    font-weight: 600;
+    line-height: 0.99938rem;
+    margin-bottom: 0.2rem;
+}
+
+#statisticPrice {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 0.99938rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.29925rem;
+    margin-bottom: 0.39rem;
+}
+
+
+.statisticInRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: justify;
+}
+
+#statisticArrow {
+    width: 0.59963rem;
+    height: 0.59963rem;
+}
+
+#statisticPercentage {
+    color: #60D39C;
+    font-family: Inter;
+    font-size: 0.69956rem;
+    font-style: normal;
+    font-weight: 600;
+    
+
+}
+
+#statisticDescription {
+    color: #FAFBFA;
+    font-family: 'Inter';
+    font-size: 0.69956rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.09931rem;
+    letter-spacing: -0.025rem;
 }
