@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap');
 
 * {
     margin: 0;
@@ -82,7 +83,7 @@ body {
 }
 
 main {
-    padding: 10px;
+    padding: 0px;
 }
 
 .arrow {
@@ -90,7 +91,7 @@ main {
     flex-direction: row;
     align-items: center;
     margin-top: -2%;
-    margin-left: 12.99%;
+    margin-left: 19%;
 
 }
 
@@ -118,13 +119,14 @@ main {
     padding: 5px 10px;
     border-radius: 20px;
     font-family: 'Inter';
+    margin-left: 0.8rem;
 }
 
 
 .content h1 {
+    padding: 1rem;
     font-family: 'Inter';
     font-size: 2.25rem;
-    font-style: normal;
     font-weight: 600;
     line-height: 120%;
     letter-spacing: -0.0225rem;
@@ -140,24 +142,30 @@ main {
     text-align: mixed;
     font-family: 'Inter';
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.625rem;
     margin-left: 0.5rem;
 }
 
 .invitation {
+    background: #FAFBFA;
+    border-radius: 6.25rem;
+    display: flex;
     flex-direction: row;
     width: 335px;
     height: 66px;
-    display: flex;
     justify-content: space-around;
     margin-top: 2.5rem;
+
 }
 
 .email {
-    display: flex;
-    border-radius: 100px;
+   color: #1D1E25;
+   font-family: 'Inter';
+   line-height: 1.625rem;
+   font-size: 1rem;
+font-style: normal;
+font-weight: 500;
 }
 
 
@@ -166,13 +174,12 @@ main {
     font-size: 1rem;
     font-family: 'Inter';
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.625rem;
 }
 
 #startForFree {
-    padding: 14px 20px;
+    padding: 0.875rem 1.25rem;
     background-color: #8635FD;
     border-radius: 100px;
     display: flex;
@@ -187,7 +194,6 @@ main {
     margin-top: -3px;
     font-family: 'Inter';
     font-size: 0.875rem;
-    font-style: normal;
     font-weight: 700;
     line-height: 150%;
 }
@@ -204,17 +210,16 @@ main {
     margin-left: 2%;
     font-family: 'Inter';
     font-size: 0.875rem;
-    font-style: normal;
     font-weight: 500;
     line-height: 150%;
     line-height: 1.625rem;
     color: #7E8492;
+    padding: 0.7rem;
 }
 
 .logInNow a {
     font-family: 'Inter';
     font-size: 1rem;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.625rem;
     color: #1D1E25;
@@ -236,26 +241,37 @@ main {
     font-family: 'Inter';
     color: #1D1E25;
     font-size: 1.19931rem;
-    font-style: normal;
     font-weight: 700;
     line-height: 1.49913rem;
     padding-bottom: 0.8rem;
 }
 
 .statistic {
+    border-radius: 0.5rem;
     display: flex;
-    flex-direction: row;
-    border: #8635FD 3rem solid;  
-    width: 16rem;
+    width: 18.9375rem;
+    padding: 0.99938rem;
+    flex-direction: column;
     align-items: center;
-    height: 0.25rem;
-    justify-content: flex-start;
-    border-radius: 0.8rem;
-    box-shadow: 15.99px 31.981px 63.962px 0px rgba(45, 51, 81, 0.12);
-    background-color: #8635FD;
-    gap: 2rem;
+    background: #8635FD ;
+    gap: 1.19931rem;
+    margin-left: 1.10rem;
+    margin-right: 1.10rem;
+    margin-bottom: 3.50rem;
 }
 
+.statisticInformation {
+    display: flex;
+    flex-direction: row;
+    justify-content: justify;
+    width: 18.08919rem;
+    align-items: flex-start;
+    gap: 3.99763rem;
+}
+
+.secondStatistic {
+    margin-left: 1.30rem;
+}
 
 #statisticTitle {
     color: #FAFBFA;
@@ -270,7 +286,6 @@ main {
     color: #FFF;
     font-family: 'Inter';
     font-size: 0.99938rem;
-    font-style: normal;
     font-weight: 700;
     line-height: 1.29925rem;
     margin-bottom: 0.39rem;
@@ -290,9 +305,8 @@ main {
 
 #statisticPercentage {
     color: #60D39C;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 0.69956rem;
-    font-style: normal;
     font-weight: 600;
     
 
@@ -302,8 +316,276 @@ main {
     color: #FAFBFA;
     font-family: 'Inter';
     font-size: 0.69956rem;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.09931rem;
     letter-spacing: -0.025rem;
+}
+
+.features {
+    width: 100%;
+    height: 58.25rem;
+    background: #070127;
+    background-image: url('/Imagens/HandDrawmLine.png');
+    background-repeat: no-repeat;
+    background-position-y: 34%;
+    margin-bottom: 5rem;
+}
+
+.featureHead {
+    color: #FFF;
+    font-family: 'Inter';
+    line-height: 120%;
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: -0.02rem;
+    margin-top: 3.5rem;
+    padding-top: 3.25rem;
+    padding-left: 1.25rem;
+    
+}
+
+.featureSubhead {
+    color: #EDEDED;
+    font-family: 'inter';
+    line-height: 1.625rem;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 1.25rem;
+}
+
+#GetStarted {
+    background: #FFFFFF; 
+    display: flex;
+    padding: 0.875rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 6.25rem;   
+    width: 9.75rem;
+    height: 3%;
+    margin-left: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+#GetStarted p {
+    color: #8635FD;
+    font-family: 'inter';
+    line-height: 1.625rem;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.featureContentBoxOne {
+    background: #8635FD;
+    border-radius: 0.5rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    margin-top: 2.5rem;
+    height: 10.625rem;
+    margin-bottom: 1rem;
+}
+
+.featureContentIconOne {
+    padding: 1.25rem;
+}
+
+.featureContentTextOne {
+    color: #FFF;
+    font-family: 'Inter';
+    line-height: 120%;
+    font-weight: 600;
+    font-size: 1.125rem;
+    margin-left: 1.25rem;
+}
+
+.featureContentBoxTwo {
+    background: #8635FD;
+    border-radius: 0.5rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    height: 10.625rem;
+    margin-bottom: 1rem;
+}
+
+.featureContentIconTwo {
+    padding: 1.25rem;
+}
+
+.featureContentTextTwo {
+    color: #FFF;
+    font-family: 'Inter';
+    line-height: 120%;
+    font-weight: 600;
+    font-size: 1.125rem;
+    margin-left: 1.25rem;
+}
+
+.featureContentBoxThree {
+    background: #8635FD;
+    border-radius: 0.5rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    height: 10.625rem;
+    margin-bottom: 3.5rem;
+}
+
+.featureContentIconThree {
+    padding: 1.25rem;
+}
+
+.featureContentTextThree {
+    color: #FFF;
+    font-family: 'Inter';
+    line-height: 120%;
+    font-weight: 600;
+    font-size: 1.125rem;
+    margin-left: 1.25rem;
+}
+
+.graphicFrame {
+    width: 18.9375rem;
+    height: 14.4375rem;
+    margin-left: 2.25rem;
+    margin-right: 2.25rem;
+}
+
+.titleInform {
+    color: #1D1E25;
+    font-family: 'inter';
+    line-height: 130%;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: -0.015rem;  
+    margin-left: 2.25rem;
+    margin-right: 2.25rem;
+    margin-top: 2rem;
+}
+
+.subTitles {
+    color: #7E8492;
+    font-family: 'inter';
+    line-height: 150%;
+    font-weight: 500;
+    font-size: 0.875rem; 
+    margin-left: 2.25rem;
+    margin-right: 2.25rem;
+    margin-top: 1rem;
+}
+
+#MakeYourFirstSale {
+    background: #8635FD; 
+    display: flex;
+    padding: 0.875rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 6.25rem;   
+    width: 9.75rem;
+    height: 3%;
+    margin-left: 2.25rem;
+    margin-top: 2rem;
+    margin-bottom: 6.5rem;
+}
+
+#MakeYourFirstSale p {
+    color: #FFF;
+    font-family: 'inter';
+    line-height: 1.625rem;
+    font-weight: 700;
+    font-size: 1rem;
+
+}
+
+.subtopics {
+    color: #7E8492;
+    font-family: 'Inter';
+    line-height: 2rem;
+    font-weight: 500;
+    font-size: 1.125rem;
+    margin-left: 4rem;
+    margin-right: 2.25em;
+    margin-top: 1rem;
+}
+
+
+.clientTour {
+    color: #1D1E25;
+    font-family: 'Inter';
+    line-height: 120%;
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: -0.02rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25em;
+    margin-top: 10.5rem;
+}
+
+.clientTourSub {
+    color: #7E8492;
+    font-family: 'Inter';
+    line-height: 1.625rem;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    margin-top: 1rem;
+}
+
+#clientBigIcon {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    margin-top: 2.5rem;
+
+}
+
+.fiveStarsNote {
+    margin-left: 1.25rem;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.fiveStarsNote p {
+    color: #101010;
+    font-family: 'Inter';
+    line-height: 150%;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-left: 0.56rem;
+}
+
+.testimony {
+    color: #1D1E25;
+    font-family: 'Inter';
+    line-height: 130%;
+    letter-spacing: -0.015rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+.persona {
+    color: #1D1E25;
+    font-family: 'Inter';
+    line-height: 130%;
+    letter-spacing: -0.015rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+.personaInform {
+    color: #7E8492;
+    font-family: "Sonsie One";
+    line-height: 1.25rem;
+    letter-spacing: -0.015rem;
+    font-weight: 400;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
 }
