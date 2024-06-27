@@ -45,12 +45,15 @@ body {
     height: 3.5rem;
 }
 
+<<<<<<< HEAD
 .menu {
     width: 1.5rem;
     height: 1.5rem;
 }
 
 /* Navbar */
+=======
+>>>>>>> 2714437161a008ccf84244f1c4fba63780eb617d
 .navbar {
     background-color: var(--secondary-color);
     padding: 0px 20px;
@@ -87,6 +90,7 @@ main {
 }
 
 .arrow {
+<<<<<<< HEAD
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -97,17 +101,41 @@ main {
 
 .arrow img {
     margin-top: -15%;
+=======
+    margin-top: 5%;
+    margin-left: 64px;
+    margin-left: 12.99%;
+    display: flex;
+    
+>>>>>>> 2714437161a008ccf84244f1c4fba63780eb617d
 }
 
+.arrow p {
+    line-height: 26px;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    color: #7E8492;
+    width: 291px;
+    height: 130px;
+    
+    
+}
 .promo {
     display: inline-flex;
     padding: 6px 16px;
     align-items: flex-start;
+<<<<<<< HEAD
     color: #8635FD;
     font-family: 'inter';
     font-size: 0.875rem;
     font-weight: 500;
     text-align: center;
+=======
+    color:#8635FD;
+>>>>>>> 2714437161a008ccf84244f1c4fba63780eb617d
     margin-bottom: 20px;
     line-height: 150%;
     padding-top: 10%;
@@ -118,8 +146,15 @@ main {
     display: inline-block;
     padding: 5px 10px;
     border-radius: 20px;
+<<<<<<< HEAD
     font-family: 'Inter';
     margin-left: 0.8rem;
+=======
+    font-family: 'inter';
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+>>>>>>> 2714437161a008ccf84244f1c4fba63780eb617d
 }
 
 
