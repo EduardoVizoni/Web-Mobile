@@ -45,15 +45,12 @@ body {
     height: 3.5rem;
 }
 
-<<<<<<< HEAD
 .menu {
     width: 1.5rem;
     height: 1.5rem;
 }
 
 /* Navbar */
-=======
->>>>>>> 2714437161a008ccf84244f1c4fba63780eb617d
 .navbar {
     background-color: var(--secondary-color);
     padding: 0px 20px;
@@ -90,7 +87,6 @@ main {
 }
 
 .arrow {
-<<<<<<< HEAD
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -100,42 +96,28 @@ main {
 }
 
 .arrow img {
-    margin-top: -15%;
-=======
-    margin-top: 5%;
-    margin-left: 64px;
-    margin-left: 12.99%;
-    display: flex;
-    
->>>>>>> 2714437161a008ccf84244f1c4fba63780eb617d
+    margin-top: -16%;
 }
 
 .arrow p {
-    line-height: 26px;
+    line-height: 1.625rem;
     font-family: 'Inter';
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
-    text-align: center;
+    text-align: left;
     color: #7E8492;
     width: 291px;
     height: 130px;
-    
-    
+
+
 }
+
 .promo {
     display: inline-flex;
     padding: 6px 16px;
     align-items: flex-start;
-<<<<<<< HEAD
     color: #8635FD;
-    font-family: 'inter';
-    font-size: 0.875rem;
-    font-weight: 500;
-    text-align: center;
-=======
-    color:#8635FD;
->>>>>>> 2714437161a008ccf84244f1c4fba63780eb617d
     margin-bottom: 20px;
     line-height: 150%;
     padding-top: 10%;
@@ -146,15 +128,8 @@ main {
     display: inline-block;
     padding: 5px 10px;
     border-radius: 20px;
-<<<<<<< HEAD
     font-family: 'Inter';
     margin-left: 0.8rem;
-=======
-    font-family: 'inter';
-    font-size: 14px;
-    font-weight: 500;
-    text-align: center;
->>>>>>> 2714437161a008ccf84244f1c4fba63780eb617d
 }
 
 
@@ -195,17 +170,16 @@ main {
 }
 
 .email {
-   color: #1D1E25;
-   font-family: 'Inter';
-   line-height: 1.625rem;
-   font-size: 1rem;
-font-style: normal;
-font-weight: 500;
+    color: #1D1E25;
+    font-family: 'Inter';
+    line-height: 1.625rem;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
 }
 
 
 .invitation p {
-    margin-top: 3px;
     font-size: 1rem;
     font-family: 'Inter';
     font-size: 16px;
@@ -288,7 +262,7 @@ font-weight: 500;
     padding: 0.99938rem;
     flex-direction: column;
     align-items: center;
-    background: #8635FD ;
+    background: #8635FD;
     gap: 1.19931rem;
     margin-left: 1.10rem;
     margin-right: 1.10rem;
@@ -343,7 +317,7 @@ font-weight: 500;
     font-family: 'Inter';
     font-size: 0.69956rem;
     font-weight: 600;
-    
+
 
 }
 
@@ -376,7 +350,7 @@ font-weight: 500;
     margin-top: 3.5rem;
     padding-top: 3.25rem;
     padding-left: 1.25rem;
-    
+
 }
 
 .featureSubhead {
@@ -389,13 +363,13 @@ font-weight: 500;
 }
 
 #GetStarted {
-    background: #FFFFFF; 
+    background: #FFFFFF;
     display: flex;
     padding: 0.875rem 1.25rem;
     justify-content: center;
     align-items: center;
     gap: 0.625rem;
-    border-radius: 6.25rem;   
+    border-radius: 6.25rem;
     width: 9.75rem;
     height: 3%;
     margin-left: 1.25rem;
@@ -490,7 +464,7 @@ font-weight: 500;
     line-height: 130%;
     font-weight: 600;
     font-size: 1.5rem;
-    letter-spacing: -0.015rem;  
+    letter-spacing: -0.015rem;
     margin-left: 2.25rem;
     margin-right: 2.25rem;
     margin-top: 2rem;
@@ -501,20 +475,20 @@ font-weight: 500;
     font-family: 'inter';
     line-height: 150%;
     font-weight: 500;
-    font-size: 0.875rem; 
+    font-size: 0.875rem;
     margin-left: 2.25rem;
     margin-right: 2.25rem;
     margin-top: 1rem;
 }
 
 #MakeYourFirstSale {
-    background: #8635FD; 
+    background: #8635FD;
     display: flex;
     padding: 0.875rem 1.25rem;
     justify-content: center;
     align-items: center;
     gap: 0.625rem;
-    border-radius: 6.25rem;   
+    border-radius: 6.25rem;
     width: 9.75rem;
     height: 3%;
     margin-left: 2.25rem;
@@ -623,4 +597,140 @@ font-weight: 500;
     margin-top: 0.5rem;
     margin-left: 1.25rem;
     margin-right: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.clientSideBar {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-left: 1rem;
+
+}
+
+.nextButton {
+    background: #8635FD;
+    border-radius: 6.25rem;
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5rem;
+    border-radius: 6.25rem;
+    margin-right: 1.88rem;
+    width: 1rem;
+    height: 1rem;
+}
+
+.clientSearch {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 3.5rem;
+}
+
+.pricing {
+    background-color: #F8FAFC;
+    width: 23.4375rem;
+height: 23.5rem;
+}
+
+.supportPlansText {
+    margin-top: 7rem;
+}
+
+.titlePlans {
+    color: #1D1E25;
+    font-family: 'Inter';
+    line-height: 1.625rem;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 0.75rem;
+}
+
+.plansAdvertising {
+    color: #1D1E25;
+    font-family: 'Inter';
+    line-height: 120%;
+    letter-spacing: -0.0225rem;
+    font-weight: 600;
+    font-size: 2.25rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    align-self: stretch;
+}
+
+.plansSubtext {
+    color: #7E8492;
+    font-family: 'Inter';
+    line-height: 1.625rem;
+    letter-spacing: -0.0225rem;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    align-self: stretch;
+}
+
+.actionsButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+
+#ChatToSales {
+    background: #F8FAFC;
+    display: flex;
+    padding: 0.875rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 6.25rem;
+    width: 6.38rem;
+    height: 1.25rem;
+    padding: 0.875rem 1.25rem;
+    align-self: stretch;
+    margin-left: 0.75rem;
+}
+
+#ChatToSales p {
+    display: flex;
+    flex-direction: row;
+    color: #1D1E25;
+    font-family: 'Inter';
+    line-height: 1.625rem;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#GetStartedPlans {
+    background: #8635FD;
+    display: flex;
+    flex-direction: row;
+    padding: 0.875rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 6.25rem;
+    width: 6.38rem;
+    height: 1.25rem;
+    padding: 0.875rem 1.25rem;
+    align-self: stretch;
+    margin-left: 0.75rem;
+}
+
+#GetStartedPlans p {
+    display: flex;
+    flex-direction: row;
+    color: #FFF;
+    font-family: 'Inter';
+    line-height: 1.625rem;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+
 }
