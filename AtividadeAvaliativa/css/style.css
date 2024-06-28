@@ -14,6 +14,22 @@
     --font-family: 'Inter', sans-serif;
 }
 
+/*Reformular as classes de botões*/
+.buttonPurple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8635FD;
+}
+
+.buttonWhite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #EDEDED;
+}
+
+
 body {
     margin: 0;
     font-family: var(--font-family);
@@ -629,14 +645,12 @@ main {
     margin-bottom: 3.5rem;
 }
 
-.pricing {
+.pricingText {
     background-color: #F8FAFC;
     width: 23.4375rem;
-height: 23.5rem;
-}
-
-.supportPlansText {
-    margin-top: 7rem;
+    height: 23.5rem;
+    padding-top: 3.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .titlePlans {
@@ -733,4 +747,181 @@ height: 23.5rem;
     font-size: 1rem;
     text-align: center;
 
+}
+
+.pricingTierCard {
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 16px 0px rgba(16, 16, 16, 0.08);
+    display: flex;
+    width: 20.9375rem;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    border: 1px solid #EDEDED;
+}
+
+.pricingPlansHeader {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    align-items: center;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.pricingPlans {
+    color: #1D1E25;
+    text-align: center;
+    font-family: 'inter';
+    font-weight: 500;
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+}
+
+.planPrice {
+    color: #1D1E25;
+    text-align: center;
+    font-family: 'inter';
+    font-weight: 600;
+    line-height: 3.75rem;
+    letter-spacing: -0.06rem;
+    font-size: 3rem;
+}
+
+.planDescrip {
+    color: #1D1E25;
+    text-align: center;
+    font-family: 'inter';
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+.actionPricing {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 0.75rem;
+}
+
+#GetStartedPricing {
+    background-color: #8635FD;
+    display: flex;
+    align-self: stretch;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    padding: 0.875rem 1.25rem;
+    border-radius: 6.25rem;
+    
+}
+
+#GetStartedPricing p {
+    color: #FFF;
+    font-family: 'inter';
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+#ChatTosalesPricing {
+    background-color: #FFF;
+    display: flex;
+    align-self: stretch;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    padding: 0.875rem 1.25rem;
+    border-radius: 6.25rem;
+    border: 1px solid #EDEDED;
+}
+
+#ChatTosalesPricing p {
+    color: #1D1E25;
+    font-family: 'inter';
+    font-weight: 700;
+    line-height: 1.625rem;
+    font-size: 1rem;
+}
+
+.divider {
+    margin-top: 1rem;
+    height: 0.0625rem;
+    align-self: stretch;
+    background: #EDEDED;
+    margin-bottom: 2rem;
+}
+
+.checkItems {
+    display: flex;
+    padding: 0rem 2rem 2.5rem 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+}
+
+.checkItemText {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+}
+
+#ThirTierCard {
+    margin-bottom: 3.5rem;
+}
+
+.ctaSection {
+    background: #F8FAFC;  
+    padding: 1.5rem 1rem;
+    gap: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    align-self: stretch;
+    border-radius: 1rem;
+}   
+
+
+.subscribeContent {
+    display: flex;
+    width: 18.125rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.subscribeHeadSub {
+    display: flex;
+    width: 18.125rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.subscribeHead {
+    color: #1D1E25;
+    font-family: 'inter';
+    font-weight: 600;
+    line-height: 120%;
+    font-size: 2rem;
+    letter-spacing: -0.02rem;
+    text-align: center;
+
+}
+.subscribeSubtext {
+    color: #7E8492;
+    font-family: 'inter';
+    font-weight: 500;
+    line-height: 1.625rem;
+    font-size: 1rem;
+    text-align: center;
+    gap: 1.25rem;
 }
