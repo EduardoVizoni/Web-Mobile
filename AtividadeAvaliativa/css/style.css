@@ -130,7 +130,6 @@ main {
 
 .arrow p {
     line-height: 1.625rem;
-
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
@@ -138,15 +137,13 @@ main {
     color: #7E8492;
     width: 291px;
     height: 130px;
-
-
 }
 
 .promo {
     border-radius: 6.25rem;
     margin-top: 3.5rem;
     display: inline-flex;
-    padding: 0.375rem 1rem;
+    padding: 0.375rem;
     align-items: flex-start;
     gap: 0.625rem;
     margin-left: 1.25rem;
@@ -160,9 +157,8 @@ main {
     font-size: 0.875rem;
     display: inline-block;
     color: #8635FD;
+    margin-left: 1.25rem;
 }
-
-
 
 .content h1 {
     color: #1D1E25;
@@ -170,16 +166,14 @@ main {
     font-weight: 600;
     font-size: 2.25rem;
     display: inline-block;
+    margin-left: 1.25rem;
 }
 
 .content p {
     font-size: 1rem;
     font-weight: 500;
     color: #7E8492;
-    width: 231px;
-    margin-bottom: 20px;
     text-align: mixed;
-    font-size: 16px;
     font-weight: 500;
     line-height: 1.625rem;
     margin-left: 0.5rem;
