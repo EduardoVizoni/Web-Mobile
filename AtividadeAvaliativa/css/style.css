@@ -7,19 +7,46 @@
     gap: 0;
 }
 
+.pSize0_75 {
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.pSize0_875 {
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.pSize1 {
+    font-size: 1rem;
+}
+
+.pSize1_125 {
+    font-size: 1.125rem;
+}
+
+.pSize1_5 {
+    font-size: 1.5rem;
+}
+
+.pSize2 {
+    font-size: 2rem;
+}
+
+.pSize2_25  {
+    font-size: 2.25rem;
+}
+
+.pSize3 {
+    font-size: 3rem;
+}
+
 .inter{
     font-family: 'Inter';
 }
 
 .sonsieOne {
     font-family: 'Sonsie One';
-}
-
-:root {
-    --primary-color: #8635FD;
-    --background-color: #ffffff;
-    --text-color: #000000;
-    --font-family: 'Inter', sans-serif;
 }
 
 /*Reformular as classes de botões*/
@@ -41,9 +68,17 @@
     background: #EDEDED;
     color: #1D1E25;
     border-radius: 6.25rem;
-
 }
 
+.buttonBlack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1D1E25;
+    background: #EDEDED;
+    color: #1D1E25;
+    border-radius: 6.25rem;
+}
 
 body {
     margin: 0;
@@ -84,12 +119,11 @@ body {
 .navbar {
     background-color: var(--secondary-color);
     padding: 0px 20px;
-    margin: 0;
     padding-bottom: 0;
 }
 
 .main {
-    margin: 0;
+
 }
 
 .navbar-content {
@@ -120,8 +154,7 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: -2%;
-    margin-left: 4rem;
+    margin: -2% 0 0 4rem;
 
 }
 
@@ -139,14 +172,12 @@ main {
 
 .promo {
     border-radius: 6.25rem;
-    margin-top: 3.5rem;
-    margin-bottom: 1.12rem;
     display: inline-flex;
     padding: 0.375rem;
     align-items: flex-start;
     gap: 0.625rem;
-    margin-left: 1.25rem;
     background: rgba(134, 53, 253, 0.08);
+    margin: 3.5rem 0 1.12rem 1.25rem
 }
 
 .promo p {
@@ -256,13 +287,11 @@ main {
 .sales {
     width: 18.28906rem;
     height: 12.99225rem;
-    margin-left: 1.25rem;
     background: #FFF;
     box-shadow: 15.99px 31.981px 63.962px 0px rgba(89, 96, 135, 0.12);
     border-radius: 0.5rem;
-    margin: 1.25rem;
-    padding: 1rem;
-    padding-bottom: 3.15rem;
+    padding: 1rem 1rem 3.15rem 1rem;
+    margin: 0 1.25rem 0 1.25rem;
 }
 
 .sales p {
@@ -282,9 +311,7 @@ main {
     align-items: center;
     background: #8635FD;
     gap: 1.19931rem;
-    margin-left: 1.10rem;
-    margin-right: 1.10rem;
-    margin-bottom: 3.50rem;
+    margin: 0 1.1rem 3.5rem 1.1rem;
 }
 
 .statisticInformation {
@@ -361,8 +388,7 @@ main {
     font-size: 2rem;
     letter-spacing: -0.02rem;
     margin-top: 3.5rem;
-    padding-top: 3.25rem;
-    padding-left: 1.25rem;
+    padding: 3.25rem 0 0 1.25rem;
 
 }
 
@@ -384,8 +410,7 @@ main {
     border-radius: 6.25rem;
     width: 9.75rem;
     height: 3%;
-    margin-left: 1.25rem;
-    margin-top: 1.25rem;
+    margin: 1.25rem 0 0 1.25rem
 }
 
 #GetStarted p {
@@ -398,11 +423,8 @@ main {
 .featureContentBoxOne {
     background: #8635FD;
     border-radius: 0.5rem;
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
-    margin-top: 2.5rem;
     height: 10.625rem;
-    margin-bottom: 1rem;
+    margin: 2.5rem 1.25rem 1rem 1.25rem;
 }
 
 .featureContentIconOne {
@@ -420,10 +442,8 @@ main {
 .featureContentBoxTwo {
     background: #8635FD;
     border-radius: 0.5rem;
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
     height: 10.625rem;
-    margin-bottom: 1rem;
+    margin: 0 1.25rem 1rem 1.25rem;
 }
 
 .featureContentIconTwo {
@@ -441,10 +461,8 @@ main {
 .featureContentBoxThree {
     background: #8635FD;
     border-radius: 0.5rem;
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
     height: 10.625rem;
-    margin-bottom: 3.5rem;
+    margin: 0 1.25rem 3.5rem 1.25rem;
 }
 
 .featureContentIconThree {
@@ -462,8 +480,7 @@ main {
 .graphicFrame {
     width: 18.9375rem;
     height: 14.4375rem;
-    margin-left: 2.25rem;
-    margin-right: 2.25rem;
+    margin: 0 2.25rem 0 2.25rem;
 }
 
 .titleInform {
@@ -472,9 +489,7 @@ main {
     font-weight: 600;
     font-size: 1.5rem;
     letter-spacing: -0.015rem;
-    margin-left: 2.25rem;
-    margin-right: 2.25rem;
-    margin-top: 2rem;
+    margin: 1rem 2.25rem 0 2.25rem;
 }
 
 .subTitles {
@@ -482,9 +497,7 @@ main {
     line-height: 150%;
     font-weight: 500;
     font-size: 0.875rem;
-    margin-left: 2.25rem;
-    margin-right: 2.25rem;
-    margin-top: 1rem;
+    margin: 1rem 2.25rem 0 2.25rem;
 }
 
 #MakeYourFirstSale {
@@ -497,9 +510,7 @@ main {
     border-radius: 6.25rem;
     width: 9.75rem;
     height: 3%;
-    margin-left: 2.25rem;
-    margin-top: 2rem;
-    margin-bottom: 6.5rem;
+    margin: 2rem 0 6.5rem 2.25rem;
 }
 
 #MakeYourFirstSale p {
@@ -515,9 +526,7 @@ main {
     line-height: 2rem;
     font-weight: 500;
     font-size: 1.125rem;
-    margin-left: 4rem;
-    margin-right: 2.25em;
-    margin-top: 1rem;
+    margin: 1rem 2.25rem 0 4rem;
 }
 
 
@@ -527,9 +536,7 @@ main {
     font-weight: 600;
     font-size: 2rem;
     letter-spacing: -0.02rem;
-    margin-left: 1.25rem;
-    margin-right: 1.25em;
-    margin-top: 10.5rem;
+    margin: 10.5rem 1.25rem 0 1.25rem;
 }
 
 .clientTourSub {
@@ -537,21 +544,16 @@ main {
     line-height: 1.625rem;
     font-weight: 500;
     font-size: 1rem;
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
-    margin-top: 1rem;
+    margin: 1rem 1.25rem 0 1.25rem;
 }
 
 #clientBigIcon {
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
-    margin-top: 2.5rem;
+    margin: 2.5rem 1.25rem 0 1.25rem;
 
 }
 
 .fiveStarsNote {
-    margin-left: 1.25rem;
-    margin-top: 1.5rem;
+    margin: 1.5rem 0 0 1.25rem;
     display: flex;
     flex-direction: row;
 }
@@ -570,9 +572,7 @@ main {
     letter-spacing: -0.015rem;
     font-weight: 600;
     font-size: 1.5rem;
-    margin-top: 1rem;
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
+    margin: 1rem 1.25rem 0 1.25rem;
 }
 
 .persona {
@@ -581,9 +581,7 @@ main {
     letter-spacing: -0.015rem;
     font-weight: 600;
     font-size: 1.5rem;
-    margin-top: 1rem;
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
+    margin: 1rem 1.25rem 0 1.25rem;
 }
 
 .personaInform {
@@ -593,10 +591,7 @@ main {
     letter-spacing: -0.015rem;
     font-weight: 400;
     font-size: 0.875rem;
-    margin-top: 0.5rem;
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
-    margin-bottom: 2rem;
+    margin: 0.5rem 1.25rem 2rem 1.25rem;
 }
 
 .clientSideBar {
@@ -685,7 +680,6 @@ main {
     border-radius: 6.25rem;
     width: 6.38rem;
     height: 1.25rem;
-    padding: 0.875rem 1.25rem;
     align-self: stretch;
     margin-left: 0.75rem;
 }
@@ -711,7 +705,6 @@ main {
     border-radius: 6.25rem;
     width: 6.38rem;
     height: 1.25rem;
-    padding: 0.875rem 1.25rem;
     align-self: stretch;
     margin-left: 0.75rem;
 }
@@ -735,8 +728,7 @@ main {
     width: 20.9375rem;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
+    margin: 0 1.25rem 0 1.25rem;
     border: 1px solid #EDEDED;
 }
 
@@ -745,10 +737,7 @@ main {
     flex-direction: column;
     align-self: stretch;
     align-items: center;
-    margin-top: 2.5rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-bottom: 1rem;
+    margin: 2.5rem 2rem 1rem 2rem;
     gap: 1rem;
 }
 
@@ -824,11 +813,10 @@ main {
 }
 
 .divider {
-    margin-top: 1rem;
     height: 0.0625rem;
     align-self: stretch;
     background: #EDEDED;
-    margin-bottom: 2rem;
+    margin: 1rem 0 2rem 0;
 }
 
 .checkItems {
@@ -860,9 +848,8 @@ main {
     align-items: center;
     display: flex;
     align-self: stretch;
-    border-radius: 1rem;
-    margin-top: 3.5rem;
-    margin-bottom: 3.5rem;
+    border-radius: 1rem;    
+    margin: 3.5rem 0 3.5rem 0;
 }   
 
 
@@ -993,7 +980,6 @@ main {
     flex-direction: column;
     align-items: flex-start;
     padding: 4rem 0.75rem;
-    gap: 2rem;
     width: 100%;
 
 }
@@ -1028,24 +1014,21 @@ main {
     display: flex;
     align-items: flex-start;
     gap: 0.75rem;
+    margin: 0 0 1rem 0.5rem;
 }
 
 #LearnMore {
     border-radius: 0.5rem;
     display: flex;
-    padding: 0.75rem 1.25rem;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
+    padding: 0.75rem 1.25rem 0.75rem 0.60rem;
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
-    width: 6rem;
-    height: 2.25rem;
+    width: 6.1rem;
+    height: 1.5rem;
 }
 
 #LearnMore p {
     color: #344054;
     font-weight: 600;
-    line-height: 1.5rem;
     font-size: 1rem;   
 
 }
@@ -1054,18 +1037,16 @@ main {
     background: #1D1E25;
     border-radius: 0.5rem;
     display: flex;
-    padding: 0.75rem 1.25rem;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
+    padding: 0.75rem 1.25rem 0.75rem 0.60rem;
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
-    width: 6rem;
-    height: 2.25rem;
+    width: 6.1rem;
+    height: 1.5rem;
 }
 
 #GetStartedFooter p {
     color:#FFFFFF;
     font-weight: 600;
+    font-size: 1rem;
+    text-align: center;   
     line-height: 1.5rem;
-    font-size: 1rem; 
 }
