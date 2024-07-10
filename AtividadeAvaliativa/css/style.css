@@ -264,8 +264,7 @@
 }
 
 .sales {
-    width: 18.28906rem;
-    height: 12.99225rem;
+    display: flex;
     background: #FFF;
     box-shadow: 15.99px 31.981px 63.962px 0px rgba(89, 96, 135, 0.12);
     border-radius: 0.5rem;
@@ -1098,6 +1097,10 @@
     display: none;
 }
 
+.sales p {
+    display: none;
+}
+
 @media (min-width: 1440px) {
 
 .lettering {
@@ -1105,8 +1108,8 @@
 }
 
 .logo {
-    width: 8.75rem;
-    height: 4.125rem;  
+    width: 1440px;
+    height: 114px;
     margin: 1.5rem 0 0 7.5rem;  
 }
 
@@ -1233,7 +1236,7 @@
 }
 
 .landingPage {
-    margin: 0;  
+    margin: 0 0 5rem 0;  
     display: flex;
     width: 90rem;
     height: 45rem;
@@ -1281,14 +1284,29 @@
     font-size: 1rem;
 }
 
+.sales img {
+    width: 26.1875rem;
+}
+
 .salesInform {
-    margin: 0 0 0 0;
+    width: 26.1875rem;
+    margin: 10rem 0 7rem 5.81rem;
     display: flex;
     width: 26.1875rem;
     padding: 1.25rem;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+
+}
+
+.statistic {
+    display: flex;
+    width: 26.1875rem;
+    padding: 1.25rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
 
 }
 
@@ -1373,3 +1391,6 @@
 }
 
 }
+
+
+
