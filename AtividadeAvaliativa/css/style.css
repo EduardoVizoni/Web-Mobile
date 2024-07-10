@@ -1353,6 +1353,15 @@
 
 .informationFeatures {
     display: flex;
+    justify-content: space-around;
+    width: 70.1875rem;
+    align-items: flex-start;
+    gap: 3.8125rem;
+    margin: 0 7rem 4rem 10rem
+}
+
+#firstinformationFeatures {
+    margin: 10rem 7rem 0rem 10rem;
 }
 
 .titleInform {
