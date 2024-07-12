@@ -614,6 +614,10 @@
     margin-bottom: 2.5rem;
 }
 
+.actionsButtonDesktop {
+    display: none;
+}
+
 #ChatToSales {
     background: #F8FAFC;
     display: flex;
@@ -710,12 +714,16 @@
     font-size: 1rem;
 }
 
-.actionPricing {
+.actionPricingMobile {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     align-self: stretch;
     gap: 0.75rem;
+}
+
+.actionPricingDesktop {
+    display: none;
 }
 
 #GetStartedPricing {
@@ -1103,6 +1111,10 @@
 
 @media (min-width: 1440px) {
 
+.actionPricingMobile {
+    display: none;
+}
+
 .lettering {
 
 }
@@ -1442,8 +1454,164 @@
     gap: 1.5rem;
 }
 
-
+.supportPlansText {
+    display: flex;
+    width: 60rem;
+    flex-direction: column;
+    align-items: center;    
+    margin: 0 15rem 0 18rem;
 }
 
+.titlePlans p {
+    color: #1D1E25;
+    font-weight: 700;
+    line-height: 1.625rem; 
+    font-size: 1rem;
+}
 
+.plansAdvertising p {
+    color: #1D1E25;
+    font-weight: 600;
+    line-height: 120%; 
+    letter-spacing: -0.035rem;
+    font-size: 3.5rem;
+}
 
+.plansSubtext p {
+    color: #7E8492;
+    font-weight: 600;
+    line-height: 120%; 
+    font-size: 1.125rem;
+}
+
+.actionsButton {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    margin: 0 35rem 0 38rem;    
+}
+
+.allPricingTierCard {
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+    margin: 0 7rem;
+}
+
+.pricingTierCard {
+    display: flex;
+    width: 24rem;
+    white-space: nowrap;
+    
+}
+
+.pricingPlansHeader {
+    display: flex;
+    padding: 2.5rem 2rem 2rem 2rem;
+    flex-direction: column;
+}
+
+.planType p {
+    color: #1D1E25;
+    font-weight: 500;
+    line-height: 1.25rem; 
+    font-size: 0.875rem;
+}
+
+.planPrice p {
+    color: #1D1E25;
+    font-weight: 600;
+    line-height: 3.75rem; 
+    font-size: 3rem;
+    letter-spacing: -0.06rem;
+}
+
+.planDescrip {
+    color: #475467;
+    font-weight: 400;
+    line-height: 1.5rem; 
+    font-size: 1rem;
+}
+
+.actionPricing {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+#GetStartedPricing {
+    display: flex;
+    width: 17.5rem;
+    height: 1.625rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#ChatTosalesPricing {
+    display: flex;
+    width: 17.5rem;
+    height: 1.625rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionPricingDesktop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+}
+
+.subscribeContent {
+    display: flex;
+    padding: 4rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 -60rem 0 10rem
+}
+
+.subscribeHeadSub {
+    display: flex;
+    width: 48rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.subscribeHead p {
+    color: #1D1E25;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.045rem;
+    font-size: 4.5rem;
+}
+
+.subscribeSubtext p {
+    color: #7E8492;
+    font-weight: 500;
+    line-height: 2rem;
+    font-size: 1.125rem;
+}
+
+/* falta coisa ai */
+
+.purpleFooter {
+    display: flex;
+    width: 80rem;
+    height: 13.25rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 1rem;
+    background: #8635FD;
+    box-shadow: 0px 8px 8px -4px rgba(16, 24, 40, 0.03);
+    margin: 0 7rem 0 7rem;
+}
+
+.footer {
+    width: 90rem;
+    height: 31.125rem;
+    flex-shrink: 0;
+    background: #1D1E25;
+}
+}
