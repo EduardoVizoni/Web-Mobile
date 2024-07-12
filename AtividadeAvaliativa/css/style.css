@@ -491,7 +491,7 @@
     margin: 1rem 1.25rem 0 1.25rem;
 }
 
-#clientBigIcon {
+.clientBigIcon {
     margin: 2.5rem 1.25rem 0 1.25rem;
 
 }
@@ -510,7 +510,7 @@
     margin-left: 0.56rem;
 }
 
-.testimony {
+.testimonyTitle {
     color: #1D1E25;
     line-height: 130%;
     letter-spacing: -0.015rem;
@@ -1398,6 +1398,50 @@
     align-items: flex-start;
     gap: 1rem;
 }
+
+.clientFullTour {
+    display: flex;
+    width: 76rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0 0 7rem;
+}
+
+.clientTour p {
+    width: 38.5rem;
+    color: #1D1E25;
+    font-weight: 600;
+    line-height: 120%;
+    font-size: 3.5rem;
+    letter-spacing: -0.035rem;
+    margin: -9rem 0 0 0;
+}
+
+.clientTourSub p {
+    width: 27.5rem;
+    color: #7E8492;
+    font-weight: 500;
+    line-height: 2rem;
+    font-size: 1.125rem;
+    margin: 0 7rem 0 6rem;
+
+}
+
+.clientBigIcon img {
+    display: flex;
+    width: 26.5rem;
+    height: 26.5rem;
+    margin: -1rem 4rem 0 7rem;
+    flex-direction: row;
+}
+
+.testimony {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
 
 }
 
