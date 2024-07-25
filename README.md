@@ -38,5 +38,5 @@ Instruções para configurar o ambiente de desenvolvimento.
 ## Contato
 
 Desenvolvido por [Eduardo Vizoni do Prado]([https://www.linkedin.com/in/seu-perfil-linkedin/](https://www.linkedin.com/in/eduardo-vizoni-do-prado-48b99829b/))  
-![Sua Foto]([https://postimg.cc/1gzfkPr4](https://i.postimg.cc/vmrf6Z17/Whats-App-Image-2024-07-25-at-16-51-31.jpg))  
+![Foto]([https://postimg.cc/1gzfkPr4](https://i.postimg.cc/vmrf6Z17/Whats-App-Image-2024-07-25-at-16-51-31.jpg))  
 Email: vizoni.prado@gmail.com
