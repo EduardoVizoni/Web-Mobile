@@ -83,7 +83,6 @@
 
 
 .header {
-    width: 100%;
     background-color: #8635FD;
     height: 1.5rem;
     justify-content: center;
@@ -115,7 +114,6 @@
 
 .navbar-content {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
