@@ -92,6 +92,7 @@
 }
 
 .letteringMobile {
+    justify-content: center;
     font-size: 0.75rem;
     font-weight: 500;
     color: #ffffff;
@@ -1116,15 +1117,15 @@
     display: none;
 }
 
-.letteringMobile {
-    display: none;
-}
-
 .footerAllLinksDesktop {
     display: none;
 }
 
 #contentBoxDesktop {
+    display: none;
+}
+
+.letteringDesktop {
     display: none;
 }
 
@@ -1138,8 +1139,9 @@
     display: none;
 }
 
-
-.letteringDesktop p {
+.letteringDesktop {
+    display: flex;
+    justify-content: center;
     font-weight: 500;
     line-height: 150%;
     color: #FFF;
